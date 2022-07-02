@@ -1,0 +1,166 @@
+.haeder {
+    border: 20px;
+    border-bottom: double;
+    background-color: rgba(240, 248, 255, 0.288);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .search-bar{
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    box-shadow: 0px 0px 5px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 15px;
+    margin-right: 200px;
+    margin-left: 100px;
+    flex: 1;
+  }
+  .searchbutton{
+    margin-left: -230px;
+    height: 34px;
+    width: 34px;
+    box-shadow: 0px 0px 5px;
+  }
+  .searchicon{
+    height: 20px;
+    width: 20px;
+  }
+  .buttonbox{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+
+  }
+  .buttons {
+    background-color: rgba(3, 3, 3, 0.548);
+    border-block-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 3px;
+  }
+  .buttons:hover{
+     cursor: pointer;
+   }
+  .buttons:active {
+    background-color: rgba(7, 17, 150, 0.671);
+    border-block-color: white;
+  }
+  .library{
+   display: flex; 
+   flex-direction: row; 
+   flex-wrap: wrap;
+   align-content: center;
+   min-width: 300px;
+   padding: 15px;
+  }
+  body {
+    background-image: url(imgs/trio.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% ;
+    margin-bottom: 200px;
+    padding-top: 115px;
+  }
+  .title {
+    font-size: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.2s;
+    border-style: solid;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .title:hover {
+    font-size: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(75, 73, 73);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .title:active {
+    font-size: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: rgb(75, 73, 73);
+    color: rgba(72, 166, 243, 0.171);
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  .coverpic {
+   width: 300px;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.15s;
+    vertical-align: top;
+    opacity: 0.8;
+    border-style: groove;
+    border-radius: 5px;
+    position: relative;
+  }
+  .coverpic:hover{
+    opacity: 1;
+  }
+  .folder:hover {
+    width: 301px;
+    height: 451px;
+    opacity: 1;
+    cursor: pointer;
+    position: relative;
+  }
+  .folder:active {
+    width: 302px;
+    height: 452px;
+    opacity: 0.6;
+    position: relative;
+  }
+
+  .folder {
+    vertical-align: top;
+    margin-top: 15px;
+    width: 300px;
+    padding-right: 15px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .subtext {
+    font-size: 15px;
+    color: rgb(245, 245, 245);
+    background-color: rgb(5, 1, 1);
+    text-align: center;
+    border-style: none;
+    width: 300px;
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    left: 0px;
+    border-style: double;
+    font-family: Roboto, arial;
+  }
+  .credits{
+    position: fixed;
+    bottom: 0px;
+    left: 25px;
+    font-weight: bolder;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
